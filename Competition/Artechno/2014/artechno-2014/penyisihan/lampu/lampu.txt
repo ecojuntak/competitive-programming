@@ -1,0 +1,43 @@
+Lampu
+
+Ada N buah lampu yang keadaannya (mati, hidup + warna) ditentukan oleh 9 buah saklar on/off (dinyatakan dengan 1/0, 1 = on, 0 = off). Keadaan tersebut diperlihatkan pada tabel berikut:
+
+Jumlah saklar on -> Keadaan
+0 -> mati
+1 -> hidup, coklat
+2 -> hidup, merah
+3 -> hidup, orange
+4 -> hidup, kuning
+5 -> hidup, hijau
+6 -> hidup, biru
+7 -> hidup, ungu
+8 -> hidup, abu-abu
+9 -> hidup, putih
+
+Sehingga bila ada konfigurasi saklar sebagai berikut:
+0 0 0 0 0 0 0 0 0, maka lampu akan mati.
+
+Dan jika ada konfigurasi sebagai berikut:
+1 0 1 0 1 0 1 0 1, maka lampu akan hidup dgn warna hijau.
+
+Seorang operator bertugas menentukan warna nyala lampu. Ia menyalakan/mematikan N buah saklar on/off tersebut, masing-masing sebanyak X kali. Sebagai contoh, konfigurasi saklar saat ini adalah 0 0 0 0 0 0 0 0 0, dan operator menyalakan/mematikan 3 buah saklar, yaitu 4x pada saklar pertama, 3x pada saklar kedua, dan 2x pada saklar ketiga. Maka hasil akhir konfigurasi saklar adalah 0 1 0 0 0 0 0 0 0, sehingga lampu akan menyala dgn warna coklat.
+
+Input
+Baris pertama adalah 9 buah integer yang menyatakan konfigurasi saklar saat ini. Baris kedua adalah N (0 <= N <= 9) dan diikuti A1 X1 A2 X2 A3 X3 ... AN XN. A (1 <= A <= 9) adalah saklar keberapa, dan X (0 <= X <= 10000) adalah berapa kali saklar di-on/off kan.
+
+Sample Input
+0 0 0 0 0 0 0 0 0 
+3 1 4 2 3 3 2
+1 1 1 1 1 1 1 1 1
+9 1 10 2 10 3 10 4 10 5 10 6 10 7 10 8 10 9 10
+1 0 1 0 1 0 1 0 1
+5 1 1 3 1 5 1 7 1 9 1
+
+Output
+
+sebuah baris yaitu keadaan lampu. Jika mati, tuliskan "mati" (tanpa tanda kutip). Jika hidup, tuliskan warnanya, misal "merah", "kuning", "hijau" (tanpa tanda kutip).
+
+Sample Output
+coklat
+putih
+mati

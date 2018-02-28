@@ -1,0 +1,38 @@
+KABISAT
+
+Diberikan input tahun dan interval, tentukan tahun berikutnya atau sebelumnya, dan tentukan apakah tahun tersebut kabisat atau tidak.
+Misalnya diberikan tahun 2000 dan interval 5, maka program harus memberikan output sbb:
+2000 kabisat
+2001 bukan kabisat
+2002 bukan kabisat
+2003 bukan kabisat
+2004 kabisat
+2005 bukan kabisat
+Namun jika interval berupa bilangan negatif, misalnya tahun 2000 dan interval -3, maka outputnya sbb:
+2000 kabisat
+1999 bukan kabisat
+1998 bukan kabisat
+1997 bukan kabisat
+
+Input
+sebuah baris berupa integer A (1000 <= A <= 9000) dan B (-999 <= B <= 999), A menyatakan tahun dan B menyatakan interval.
+
+Sample Input
+2000 5
+2000 -3
+
+
+Ouput
+beberapa baris berisi tahun dan "kabisat" atau "bukan kabisat" (tanpa tanda kutip). N adalah nomor test case. Perhatikan contoh output untuk lebih jelas.
+
+Sample Output
+2000 kabisat
+2001 bukan kabisat
+2002 bukan kabisat
+2003 bukan kabisat
+2004 kabisat
+2005 bukan kabisat
+2000 kabisat
+1999 bukan kabisat
+1998 bukan kabisat
+1997 bukan kabisat

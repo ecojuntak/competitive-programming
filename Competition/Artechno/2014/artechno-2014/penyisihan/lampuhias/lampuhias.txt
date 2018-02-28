@@ -1,0 +1,25 @@
+Lampu Hias
+
+Pada sebuah acara, terdapat beberapa lampu hias. Lampu hias tersebut menyala pada menit-menit tertentu. Jika acara dimulai pada jam tertentu, tentukan pada jam berapa semua lampu menyala bersama untuk pertama kalinya.
+
+Input
+Baris pertama berisi sebuah string W dalam format HH.MM (00.00 <= W <= 23.59) yaitu jam dimulai acara. Baris kedua berisi bilangan bulat N (1 <= N <= 10) yaitu banyaknya lampu hias dalam acara tersebut. Baris ketiga berisi N buah bilangan bulat Ki (1 <= Ki <= 1000) yaitu interval waktu yang menunjukkan berapa menit sekali lampu ke-i akan menyala.
+
+Sample Input
+09.00
+1
+60
+20.00
+3
+8 20 100
+
+Output
+setiap baris berupa jam di mana semua lampu akan menyala bersama. Jika lampu akan menyala bersama di hari berikutnya, tampilkan jam di hari tersebut.
+
+
+Sample Output
+10.00
+23.20
+
+Penjelasan
+Pada kasus uji 2, lampu pertama menyala setiap 8 menit (yaitu pada jam 20.08, 20.16, 20.24, ..., 23.20, ...), lampu kedua menyala setiap 20 menit (yaitu pada jam 20.20, 20.40, 21.00, ..., 23.20, ...), lampu ketiga menyala setiap 100 menit (yaitu pada jam 21.40, 23.20, ...). Ketiga lampu menyala bersama untuk pertama kalinya pada jam 23.30.

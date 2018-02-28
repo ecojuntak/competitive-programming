@@ -1,0 +1,22 @@
+Naik Turun Challange
+
+Titik baru saja menonton Naik Turun Challange. Naik Turun Challange merupakan tantangan untuk membuat video mengikuti irama sebuah lagu. Titik sangat ingin mengikutinya, tetapi dia malu untuk memvideokan dirinya.
+
+Karena itu, Titik mencoba untuk mengikuti Naik Turun Challange melalui program komputer. Titik merepresentasikan pola Naik Turun Challange dengan sebaris string, yang didalamnya hanya ada karakter N (Naik) dan T (Turun). Tetapi karena tempo musik yang di putarnya terlalu cepat, Titik tidak dapat mengikuti perintah naik dan turun secara bergantian. String yang terbentuk bisa saja menjadi NNNTTTNTNTNNNTTNTNTNNT. Tetapi pola tersebut adalah salah karena setelah Naik harus Turun dan setalah Turun harus Naik.
+
+Karena polanya harus benar sesuai aturan diatas, bantulah Titik menemukan berapa jumlah minumal gerakan Naik atau Turun yang perlu diubah supaya polanya benar.
+
+Input:
+T (1 <= T <= 20) sebagai jumlah testcase. Lalu diikuti oleh sebanyak T buah string yang panjangnya tidak lebih dari 1000 karakter.
+
+Output:
+Keluaran program harus mengikuti pola berikut. "Testcase Y: X", tanpa tanda petik dimana Y adalah representasi bilangan kedalam bentuk kata dan X adalah jumlah gerakan yang harus diubah. Untuk Y, dijamin keluarannya menggunakan ejaan yang benar. Jika Y terdapat dua kata atau lebih dipisahkan dengan tanda dash '-'
+
+Samplet testcase:
+input:
+	2
+	NTNTNTNTNTNTNTNTNTN
+	TTTTTTTTTTTTTTTTTTT
+output:
+	Testcase satu: 0
+	Testcase dua: 9

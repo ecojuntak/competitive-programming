@@ -1,0 +1,32 @@
+Bacteria O
+
+Scientists researching about new species bacteria O. Bacteria O has some behavior:
+
+    Every bacteria have a DNA OO that equals to one of the positive numbers
+    They like to formed a triplet bond
+    The larger greatest common divisor of triplet bacteria, the bond is more stronger.
+    Score of a bond is the greatest common divisor of triplet
+
+When N bacteria O put into the same place, naturally they bond each other. The scientists want to collect this data: The largest possible bond score from these bacteria O.
+
+Find the largest possible score of bacteria O triplet bond.
+
+Input
+The first line of the input contains an integer N (3 = N = 5000) — the number of bacteria O put in a place. The next N lines contain one integer each, between 1 and 1000000 (inclusive), the DNA OO number.
+
+Output
+Output one integer — the largest possible score of bacteria O triplet bond.
+
+Sample Input
+
+6
+5
+10
+9
+8
+18
+15
+
+Sample Output
+
+5

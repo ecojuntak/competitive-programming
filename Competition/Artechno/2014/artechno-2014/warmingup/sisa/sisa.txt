@@ -1,0 +1,23 @@
+Penjumlahan Sisa
+
+
+Diberikan dua bilangan bulat A dan B, hitung:
+X, yaitu sisa pembagian A dengan B
+Y, yaitu sisa pembagian B dengan A
+Hasil penjumlahan X dengan Y
+
+Input
+sebuah baris terdiri dari dua bilangan bulat A (1 <= B <= 100) dan B (1 <= B <= 100) yang dipisahkan spasi.
+
+Sample Input
+1 1
+4 5
+10 10
+
+Output
+sebuah baris berisi hasil yang diminta.
+
+Sample Output
+0
+5
+0

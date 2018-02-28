@@ -1,0 +1,39 @@
+Beauty Square
+
+Math is fun, they said.
+
+Two months ago, Mr. Oski was teaching his student about square number. Square number is a multiplication product of a number with the number itself. For example: 1 (1x1), 4 (2x2), 9 (3x3), ...
+One day when he wrote down sequences of square number, he found something fun. What is the digit of the X position, and what is that square number.
+
+Input
+The first line contains an integer (1 <= T <= 100) denotes the number of cases. Each case contains an integer, (1 <= X <= 2.000.000.000).
+
+Output
+For each case, output the digit from the sequences and that square number in one line.
+
+Sample Input
+
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+20
+
+Sample Output
+
+1 1
+4 4
+9 9
+1 16
+6 16
+2 25
+5 25
+3 36
+6 36
+2 121

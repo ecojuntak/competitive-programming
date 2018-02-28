@@ -1,0 +1,31 @@
+Matematika
+
+Buat sebuah program untuk menghitung A mod B, di mana mod adalah operator sisa pembagian. Sebagai contoh, jika diberikan A = 10 dan B = 3, maka A mod B adalah 1.
+
+A tidak diberikan dalam bentuk sebuah bilangan, tetapi merupakan hasil perkalian N buah hasil perpangkatan PQ. Sebagai contoh N adalah 2, P1 = 2, Q1 = 3, P2 = 1, Q2 = 10, serta B = 5, maka:
+
+A mod B
+= (P1 ^ Q1 * P2 ^ Q2) mod B
+= (2 ^ 3 * 1 ^ 10) mod 5
+= (8 * 1) mod 5
+= 8 mod 5
+= 3
+
+Catatan:
+[1] ^ adalah operator pangkat, * adalah operator kali.
+[2] Anda bisa menggunakan rumus (A * B) mod X = [ (A mod X) * (B mod X) ] mod X
+
+Input
+sebuah baris dengan inputan N B P1 Q1 P2 Q2 P3 Q3 ... PN QN.
+1 <= N <= 100, 1 <= B <= 1000, 1 <= Pi <= 10, 0 <= Qi <= 10.
+
+Sample Input
+1 3 10 1
+2 5 2 3 1 10
+
+Output
+sebuah baris, yaitu hasil (P1 ^ Q1 * P2 ^ Q2 * P3 ^ Q3 * ... * PN ^ QN) mod B.
+
+Sample Output
+1
+3

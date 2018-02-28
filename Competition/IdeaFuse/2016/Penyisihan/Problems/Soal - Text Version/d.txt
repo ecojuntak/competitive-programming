@@ -1,0 +1,32 @@
+White Black
+
+Art is something.
+
+In Micros Gallery, the collections of art are enormously rich and varied. At the first time, Mr. Oski visits and just look around the Gallery. But in the end, Mr. Oski is interested in pictures art. His interest begins with learning how to redraw some pictures. Pictures are drawn in many colors. Mr. Oski doesn’t like to draw the picture exactly the same, but he rather prefers to draw it with black and white color. When converting a colored picture into a black-white picture, he must carefully when selecting pictures. Because after redraw the picture can make two or more region become into one (not distinguishable). So before he draws, he needs to make sure the picture is convertible.
+
+In this problem, pictures are represented as a two dimensional block (R x C). Each block contains a color represents in an integer. When converting, each color can only be changed to either black or white.
+
+Input
+The first line consists of two integers (1 <= R <= 50), (1 <= C <= 50). The next R lines contain C integers represent the color of the block.
+
+Output
+Output “other picture” if the picture is not convertible. When the picture is convertible, output the result after converting into black-white picture. Black is represented with 0 and white is represented with 1. If the picture can be converted more than one way, choose output with the top-left most smaller. Each two adjacent integers in a row are separated with a space.
+
+Sample Input
+
+6 6
+1 1 1 2 2 2
+1 1 1 2 2 2
+1 1 1 2 2 2
+3 3 3 1 1 1
+3 3 3 1 1 1
+3 3 3 1 1 1
+
+Sample Output
+
+0 0 0 1 1 1
+0 0 0 1 1 1
+0 0 0 1 1 1
+1 1 1 0 0 0
+1 1 1 0 0 0
+1 1 1 0 0 0

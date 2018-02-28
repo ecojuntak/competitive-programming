@@ -1,0 +1,19 @@
+Guessing Game
+
+It’s time to play cards.
+The card deck only contains 8 cards, numbered from 1 to 8. Mr. Oski and Mr. Mikel take 3 cards. Then 2 cards are left in the deck. Mr. Oski and Mr. Mikel telling you the sum of their cards. Your turn is to guess that 2 cards.
+
+Input
+The input contains two integers X, Y. Sum of Mr. Oski’s cards and sum of Mr. Mikel’s cards.
+
+Output
+All of the possibility of two cards in pair (A, B). Output must ordered by A.
+
+Sample Input
+
+21 10
+
+Sample Output
+
+1 4
+2 3

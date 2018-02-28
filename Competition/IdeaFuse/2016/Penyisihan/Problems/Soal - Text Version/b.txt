@@ -1,0 +1,25 @@
+Cube 3x3x3
+
+Usually in any contest of ICPC, there should be at least one problem which every contestant could answer.
+
+Given T, following by T lines of two integer A, B.
+Count how many integer N satisfied A = N3 = B.
+
+Constraints
+1 = T = 100
+1 = A = B = 1012
+
+Sample Input
+
+2
+7 17
+25 100
+
+Sample Output
+
+Case #1: 1
+Case #2: 2
+
+Sample Case Explanation
+For 1st sample case, there is N = {2}, which satisfied the equation.
+For 2nd sample case, there are N = {3, 4}, which satisfied the equation.

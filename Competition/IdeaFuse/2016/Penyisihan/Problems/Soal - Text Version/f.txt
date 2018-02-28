@@ -1,0 +1,32 @@
+Maximus
+
+This year Mr. Oski works as a part time private teacher. Recently he has been teaching his students about fractions. Fraction is a part of a whole. Some fractions may look different, but are really the same, for example: 48=24=12\frac{4}{8} = \frac{2}{4} = \frac{1}{2}?8??4??=?4??2??=?2??1??. It is usually best to show an answer using the simplest fraction (12\frac{1}{2}?2??1?? in this case).
+
+Fraction consists of numerator and denominator. We call the top number the Numerator, it is the number of parts we have. We call the bottom number the Denominator, it is the number of parts the whole is divided into numeratordenumerator\frac{numerator}{denumerator}?denumerator??numerator??.
+
+To simplified in writting, fractions are written like this: numerator/denumeratornumerator/denumeratornumerator/denumerator.
+
+In this problem, we don’t really care about the simplest fraction. But a fraction that looks like this 1/2/3/41/2/3/41/2/3/4 Although to calculate the result, usually we divide from left to right order. But if we order divides in some way, the result may vary. for example:
+(1/2)/(3/4)=2/3=0.667(1/2)/(3/4) = 2/3 = 0.667(1/2)/(3/4)=2/3=0.667
+1/((2/3)/4)=61/((2/3)/4) = 61/((2/3)/4)=6
+1/(2/(3/4))=3/8=0.3751/(2/(3/4)) = 3/8 = 0.3751/(2/(3/4))=3/8=0.375
+
+You are given a list of N integer K that form K1/K2/K3/.../KN. Find the largest result from ordering the divide order.
+
+Input
+The first line contains an integer (2 <= N <= 100). The next N lines contain an integer X, 1 <= Abs(X) <= 100.
+
+Output
+Output the largest result from ordering the divide order in this format D.DDDx10^exp (D is digit from 0 to 9, Exp is the exponent number).
+
+Sample Input
+
+4
+1
+2
+3
+4
+
+Sample Output
+
+6.000x10^0

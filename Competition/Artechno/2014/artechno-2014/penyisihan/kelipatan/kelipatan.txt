@@ -1,0 +1,20 @@
+KELIPATAN
+
+Tuliskan N buah bilangan kelipatan P yang lebih besar dari P.
+
+Input
+sebuah baris berisi N dan P
+1 <= N <= 1000, 1 <= P <= 1000.
+
+Sample Input
+1 512
+2 28
+3 843
+
+Output
+sebuah baris berupa N buah bilangan kelipatan P yang lebih besar dari P.
+
+Sample Output
+1024
+56 84
+1686 2529 3372

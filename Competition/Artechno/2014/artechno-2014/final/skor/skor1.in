@@ -1,0 +1,66 @@
+10 5 50
+team1
+team2
+team3
+team4
+team5
+team6
+team7
+team8
+team9
+team10
+A
+B
+C
+D
+E
+5 team3 B Y
+7 team2 C N
+15 team2 B Y
+15 team7 B Y
+20 team3 C N
+28 team6 B N
+30 team6 B Y
+30 team7 E N
+30 team3 A Y
+45 team3 C Y
+45 team2 C Y
+52 team6 A N
+55 team7 C Y
+60 team2 A Y
+60 team7 A Y
+89 team7 E N
+99 team6 A N
+101 team9 A N
+102 team9 A N
+103 team9 A N
+104 team9 A N
+105 team9 A N
+106 team9 A N
+107 team9 A N
+107 team8 A N
+108 team9 A N
+111 team9 E N
+114 team8 B N
+120 team3 D Y
+120 team7 E N
+120 team6 C Y
+120 team6 A N
+120 team8 A Y
+120 team2 D Y
+120 team7 D Y
+123 team8 C N
+132 team2 E N
+141 team3 E N
+147 team8 B N
+150 team8 B Y
+189 team7 E N
+200 team6 A Y
+201 team1 A N
+202 team1 A N
+203 team1 A N
+204 team1 A N
+205 team1 A N
+220 team9 A Y
+250 team2 E N
+300 team5 B N

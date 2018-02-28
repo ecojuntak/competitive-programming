@@ -1,0 +1,33 @@
+Palindrome
+
+Palindrome merupakan string yang jika dibaca dari kiri maupun dari kanan akan menghasilkan hasil yang sama, contohnya A, ABA, ABCBA. Pada soal ini, Anda diminta membuat sebuah string menjadi palindrome dengan cara mengubah karakter ? menjadi salah satu dari karakter A-Z. Setiap penggantian memiliki biaya tertentu, yang tergantung dari karakter tersebut. Anda diminta untuk membentuk palindrome dengan biaya sekecil mungkin. Jika ada dua atau lebih palindrome dengan biaya yang sama, pilih palindrome yang paling kecil secara lexicography (berada lebih awal dalam susunan kamus/abjad).
+
+
+Input
+Baris pertama berisi 26 bilangan bulat Xi (0 <= Xi <= 1000). Baris kedua berisi sebuah string sepanjang N (1 <= N <= 100). String tersebut hanya terdiri dari karakter A-Z dan ?. X1 merupakan biaya penggantian ? menjadi A, X2 merupakan biaya penggantian ? menjadi B, ..., X26 merupakan biaya penggantian ? menjadi Z.
+
+Sample Input
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+?
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 5
+??
+10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 5
+A?A
+5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+???
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ABC
+
+Output
+sebuah baris berupa biaya minimum diikuti dengan string yang sudah palindrome. Jika string palindrome tidak dapat diperoleh, <hasil> hanya berisi -1.
+
+Sample Output
+0 A
+10 ZZ
+5 AZA
+15 AAA
+-1
+
+Penjelasan
+Pada kasus uji 2, ada 26 string palindrome yang dapat dibentuk, yaitu AA (biaya 2 * 10 = 20), BB (biaya 20), ..., ZZ (biaya 2 * 5 = 10). String ZZ dipilih karena memiliki biaya yang paling minimum.
+

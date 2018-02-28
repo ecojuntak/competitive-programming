@@ -1,0 +1,38 @@
+Mantra
+
+Diberikan beberapa kata, tentukan apakah suatu mantra dapat diucapkan dengan cara menggabungkan nol atau lebih kata-kata tersebut.
+Misalnya diberikan kata: a, da, ke, lu, mos, va, vra. Maka beberapa mantra yang dapat diucapkan adalah lumos, avadakedavra. Beberapa mantra yang tidak dapat diucapkan adalah expelliarmus, wingardiumleviosa, crucio, imperio.
+
+
+Input
+setiap baris diawali bilangan bulat Nw (1 <= Nw < 10) yaitu banyaknya kata yang dapat digunakan untuk membentuk suatu mantra. Nw baris berikutnya berisi kata-kata tersebut. Setiap kata memiliki panjang Lw (1 <= Lw <= 10), dan hanya terdiri dari karkter a-z.
+Baris berikutnya dari sebuah kasus uji adalah Ns (1 <= Ns <= 20) yaitu banyaknya mantra. Ns baris berikutnya berisi mantra. Setiap mantra memiliki panjang Ls (1 <= Ls <= 100), dan hanya terdiri dari karakter a-z.
+
+
+Sample Input
+7
+a
+da
+ke
+lu
+mos
+va
+vra
+6
+lumos
+expelliarmus
+wingardiumleviosa
+avadakedavra
+crucio
+imperio
+
+Output
+setiap baris adalah string YA jika mantra tersebut dapat diucapkan dan TIDAK jika mantra tersebut tidak dapat diucapkan dengan menggunakan kata-kata yang diberikan pada kasus uji tersebut.
+
+Sample Output
+YA
+TIDAK
+TIDAK
+YA
+TIDAK
+TIDAK        

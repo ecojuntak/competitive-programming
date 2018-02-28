@@ -1,0 +1,35 @@
+Finite Loop
+
+There’s a theorem which states that if P is a prime number and A is natural number, then
+AP = A (mod P)
+Furthermore, if A is not divisible by P, then
+AP-1 = 1 (mod P)
+or
+AP-1 mod P = 1
+In this contest, we will use similar equation as below.
+(AB - C) mod P = 1
+
+Given T, following by T lines of three integer A, C, P.
+Output smallest non-zero integer B. If no such B exists, output -1.
+
+Constraints
+1 = T = 100
+1 = P = 1000000
+1 = A < P
+0 = C < P
+It is guaranteed that P is prime number
+
+Sample Input
+
+2
+7 1 17
+9 0 23
+
+Sample Output
+
+Case #1: 10
+Case #2: 11
+
+Sample Case Explanation
+For 1st sample case, there is B = 10, which satisfied the equation (710 - 1) mod 17 = 1.
+For 2nd sample case, there are B = 11, which satisfied the equation (911 - 0) mod 23 = 1.
